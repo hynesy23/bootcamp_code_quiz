@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Coding Quiz!</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Hello, and welcome to a very easy edition of... Coding Quiz!</h1>
+    </header>
+
+    <button>Begin Quiz</button>
+
+    <div class="quiz-container">
+        <div class="question-container">
+            <p>1. What colour is the sky?</p>
+        </div>
+        <div class="answers-container">
+            <p onclick="submitAnswer( this )" value="Q1">Green</p>
+            <p onclick="submitAnswer( this )" value="Q1">Blue</p>
+            <p onclick="submitAnswer( this )" value="Q1">Yellow</p>
+            <p onclick="submitAnswer( this )" value="Q1">Red</p>
+        </div>
+        <p id="message-container"></p>
+    </div>
+</body>
+</html>
